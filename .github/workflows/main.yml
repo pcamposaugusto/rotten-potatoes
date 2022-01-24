@@ -26,6 +26,6 @@ jobs:
           context: ./src
           file: ./src/Dockerfile
           push: true
-          tags:
+          tags: |
             pcamposaugusto/rotten-potatoes:latest
             pcamposaugusto/rotten-potatoes:${{ github.run_number }}
